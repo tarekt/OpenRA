@@ -56,6 +56,9 @@ SuicideBomb:
 		DamageTypes: Prone50Percent, TriggerProne, FireDeath
 	Warhead@2Res: DestroyResource
 
+ReconSattelite:
+	ValidTargets: Ground, Water, Air
+
 IonCannon:
 	ValidTargets: Ground, Water, Air
 	Warhead@1Dam_impact: SpreadDamage

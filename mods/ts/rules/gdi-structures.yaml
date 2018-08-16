@@ -332,12 +332,27 @@ GARADR:
 	ProvidesRadar:
 		RequiresCondition: !disabled && !empdisable
 	InfiltrateForExploration:
+     ReconSattelitePower:
+          Cursor: ioncannon
+          PauseOnCondition: disabled || empdisable
+          Icon: ioncannon
+          Effect: explosion
+          EffectSequence: ionring
+          EffectPalette: effectalpha75
+          WeaponDelay: 0
+          ChargeInterval: 4750
+          Description: Reconnaissance sattelite
+          LongDesc: Get latest battlefield images via sattelite.\nReveals map.
+          EndChargeSpeechNotification: IonCannonReady
+          SelectTargetSpeechNotification: SelectTarget
+          DisplayRadarPing: False
+          CameraActor: camera
 	DetectCloaked:
 		Range: 10c0
 	RenderDetectionCircle:
 	RevealsShroud:
-		Range: 10c0
-		MaxHeightDelta: 3
+		Range: 32c0
+		MaxHeightDelta: 9
 	WithIdleOverlay@DISH:
 		Sequence: idle-dish
 		PauseOnCondition: disabled || empdisable

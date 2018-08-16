@@ -73,8 +73,9 @@
     <Compile Include="Traits\Render\WithDeliveryAnimation.cs" />
     <Compile Include="Traits\Render\WithRoof.cs" />
     <Compile Include="Traits\SupportPowers\IonCannonPower.cs" />
+    <Compile Include="Traits\SupportPowers\ReconSattelitePower.cs" />
     <Compile Include="UtilityCommands\ImportTiberianDawnLegacyMapCommand.cs" />
-    <Compile Include="Projectiles\IonCannon.cs" />
+    <Compile Include="Projectiles\ReconSattelite.cs" />
     <Compile Include="Activities\VoxelHarvesterDockSequence.cs" />
     <Compile Include="SpriteLoaders\TmpTSLoader.cs" />
     <Compile Include="Traits\Buildings\TiberianSunRefinery.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Traits\GpsWatcher.cs" />
     <Compile Include="Scripting\Properties\ChronosphereProperties.cs" />
     <Compile Include="Scripting\Properties\IonCannonProperties.cs" />
+    <Compile Include="Scripting\Properties\ReconSatteliteProperties.cs" />
     <Compile Include="Traits\Render\WithDisguisingInfantryBody.cs" />
     <Compile Include="UtilityCommands\ImportRedAlertLegacyMapCommand.cs" />
     <Compile Include="Traits\Infiltration\InfiltrateForDecoration.cs" />

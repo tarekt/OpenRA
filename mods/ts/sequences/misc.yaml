@@ -439,6 +439,7 @@ icon:
 	ioncannon: ioncicon
 	hunterseeker: detnicon
 	emp: pulsicon
+     reconsatelite: ioncicon
 
 clustermissile:
 	up: mltimisl-placeholder # TODO: use voxel
